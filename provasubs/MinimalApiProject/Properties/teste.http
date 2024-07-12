@@ -1,0 +1,19 @@
+### Teste de Cadastro de Aluno
+POST http://localhost:3000/api/register
+Content-Type: application/json
+
+{
+  "firstName": "João",
+  "lastName": "Silva"
+}
+
+### Teste de Cadastro de Aluno Duplicado
+POST http://localhost:3000/api/register
+Content-Type: application/json
+
+{
+  "firstName": "João",
+  "lastName": "Silva"
+}
+
+
